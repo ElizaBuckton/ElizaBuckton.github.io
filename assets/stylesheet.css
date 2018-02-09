@@ -134,7 +134,8 @@ iframe {
 }
 
 div.contentPaperSheet {
-    background-color: white;
+    background-color: black;
+    opacity: 0.8;
     padding: 10px;
     width: 560px;
     min-width: 560px;
