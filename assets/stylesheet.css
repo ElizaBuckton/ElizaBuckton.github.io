@@ -414,13 +414,13 @@ a.navlink {
 }
 
 .fbinfoboxtext {
-	color:black;
+	color:white;
 	font-size:13px;
 	padding:2px;
 	letter-spacing:0px;
 	line-height:16px;
 	font-family: 'Roboto', sans-serif;
-	background-color:white;
+	background-color:black;
 	font-weight:100;
 }
 
