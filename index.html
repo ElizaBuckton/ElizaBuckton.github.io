@@ -263,18 +263,15 @@ var x = setInterval(function() {
 </script>
 	    
 	    <script>
-		    var warn = "Warning! This website isn't fully\n supported on some browsers.";
-		    var agree = "If this is okay with you, click the 'yes' button";
-		    var yes = "Are you sure?";
-		    var no = "We apologize for the inconvenience"
-		    
-		    var hi= confirm("Warning! This website isn't fully\n supported on some browsers.");
-		    if (hi == true) {
-			    alert("Okay, thank you.");
-		    }else{
-			    alert(no);
-		    }
-		    }
+		    function say_hi()
+{
+    var hi= confirm("Do you really want me to say hi?");
+    if (hi== true){
+        alert("hi");
+    }else{
+        alert("Meany!!!");
+    }
+}
 		    
 	    </script>
 	    
